@@ -13,7 +13,7 @@ $( document ).ready(function(){
     $('#losses').text(losses);
   
 function resetGame() {
-    Random=Math.floor(Math.random() * (120 - 19) + 19);
+    randomNumber = Math.floor(Math.random() * (120 - 19) + 19);
     $('#randomNumber').text(randomNumber);
     redCrystal = Math.floor(Math.random() * (12 - 1) + 1);
     blueCrystal = Math.floor(Math.random() * (12 - 1) + 1);
