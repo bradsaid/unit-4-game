@@ -6,6 +6,7 @@
     <title>Crystal Game</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css"> 
+    <link rel="stylesheet" href="assets/css/style.css"> 
 </head>
 <body>
 
@@ -13,21 +14,22 @@
     <div class="row">
         <div class="col s12">
             <h1>Target Number: <span id="randomNumber"></span></h1>
-        </div>
-        <div class="col s3">
-          <div id="crystals"></div>
-    </div>
-    <div class="row"></div>
-        <div class="col s6">
-        <h2>Wins: <span id="wins"></span></h2>
-        <h2>Losses: <span id="losses"></span></h2>
-        </div>
-    </div>  
+        </div> 
+    </div> 
     <div class="row">
-       <div class="col 12">
+       <div class="col 6">
+            <h2>Wins: <span id="wins"></span></h2>
+            <h2>Losses: <span id="losses"></span></h2>
            <h2>Score: <span id="currentScore"></span></h2>
        </div>
     </div>    
+    <div class="row">
+            <div class="col s6">
+                <div id="crystals"></div>   
+            </div>
+    </div>        
+
+
 </div>
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
