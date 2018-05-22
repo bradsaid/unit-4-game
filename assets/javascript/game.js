@@ -31,8 +31,8 @@ $( document ).ready(function(){
   for (var i = 0; i < numberOptions.length; i++) {
     var imageCrystal = $("<img>");
     imageCrystal.addClass("crystal-image");
-    imageCrystal.attr("src", "assets/images/"+1+".png");
-    //imageCrystal.attr("src", "assets/images/" + images[i]);
+    //imageCrystal.attr("src", "assets/images/"+1+".png");
+    imageCrystal.attr("src", "assets/images/" + images[i]);
     imageCrystal.attr("data-crystalvalue", numberOptions[i]);
     crystals.append(imageCrystal);
   }
